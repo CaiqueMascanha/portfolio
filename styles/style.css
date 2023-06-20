@@ -188,9 +188,23 @@ body {
 
 @media (max-width: 350px) {
 
-  .cabecalho__menu{
-    justify-content:space-between;
-    gap: 20px;
+  .cabecalho {
+    justify-content: center;
+    padding: 10% 2%;
   }
+
+  .cabecalho__menu{
+    box-sizing: border-box;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    overflow: auto;
+    gap: 40px;
+  }
+
+  .cabecalho__menu__link {
+    text-align: center;
+  }
+
 
 }
