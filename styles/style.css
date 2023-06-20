@@ -164,7 +164,8 @@ body {
 /* se a resolução tiver até 1200px de largura então ele aplica as propriedades abaixo, caso contrário as prorpiedades acima */
 @media (max-width: 1200px) {
   .cabecalho__menu {
-    justify-content:flex-start; 
+    justify-content:space-between;
+    gap: 40px;
   }
 
   .cabecalho__menu__link {
@@ -194,7 +195,6 @@ body {
   }
 
   .cabecalho__menu{
-    box-sizing: border-box;
     justify-content:space-between;
     align-items: center;
     text-align: center;
